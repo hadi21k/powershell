@@ -2,7 +2,7 @@
 
 ### Install Nerd Fonts [Hack](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0)
 
-## Install scoop commands:
+## Install Scoop:
 
 ```bash
 iwr -useb get.scoop.sh | iex

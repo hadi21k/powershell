@@ -37,7 +37,7 @@ nvim $PROFILE.CurrentUserCurrentHost
 
 ## Add in $PROFILE.CurrentUserCurrentHost:
 
-```json
+```bash
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 ```
 

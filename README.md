@@ -35,15 +35,18 @@ nvim user_profile.ps1
 nvim $PROFILE.CurrentUserCurrentHost
 ```
 
-### Add in $PROFILE.CurrentUserCurrentHost
+## Add in $PROFILE.CurrentUserCurrentHost:
+
+```json
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
+```
 
 ```bash
 Install-Module posh-git -Scope CurrentUser -Force
 ```
 
 ```bash
---- Install-Module oh-my-posh -Scope CurrentUser -Force
+Install-Module oh-my-posh -Scope CurrentUser -Force
 ```
 
 ## Install Terminal Icons:
@@ -58,7 +61,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery -ForceImport-Module  T
 Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 ```
 
-<span style="color:red">(if it doesn't works delete -AllowPrerelease) </span>
+If it doesn't works delete -AllowPrerelease
 
 ## Set Prediction:
 

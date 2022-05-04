@@ -32,12 +32,14 @@ nvim user_profile.ps1
 ```
 
 ```bash
---- nvim $PROFILE.CurrentUserCurrentHost
+nvim $PROFILE.CurrentUserCurrentHost
 ```
+
+### Add in $PROFILE.CurrentUserCurrentHost
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 
 ```bash
---- Install-Module posh-git -Scope CurrentUser -Force
+Install-Module posh-git -Scope CurrentUser -Force
 ```
 
 ```bash
@@ -56,7 +58,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery -ForceImport-Module  T
 Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 ```
 
-### (if it doesn't works delete -AllowPrerelease) 
+<span style="color:red">(if it doesn't works delete -AllowPrerelease) </span>
 
 ## Set Prediction:
 

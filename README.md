@@ -41,12 +41,24 @@ nvim $PROFILE.CurrentUserCurrentHost
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 ```
 
+## Install oh-my-posh:
+
 ```bash
 Install-Module posh-git -Scope CurrentUser -Force
 ```
 
 ```bash
 Install-Module oh-my-posh -Scope CurrentUser -Force
+```
+
+### [Themes Link](https://ohmyposh.dev/docs/themes)
+
+```bash
+vim theme.omp.json
+```
+
+```json
+Add theme code
 ```
 
 ## Install Terminal Icons:

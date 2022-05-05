@@ -57,7 +57,7 @@ Install-Module oh-my-posh -Scope CurrentUser -Force
 vim theme.omp.json
 ```
 
-```json
+```bash
 Add theme code
 ```
 

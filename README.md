@@ -9,7 +9,7 @@ iwr -useb get.scoop.sh | iex
 ```
 
 ```bash
-scoop install curl sudi jq
+scoop install curl sudo jq
 ```
 ## Install Git:
 
